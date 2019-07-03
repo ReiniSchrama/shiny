@@ -11,8 +11,8 @@ ui <- fluidPage(
                     "Transfer effort (as % of GDP)" = "Transfer.effort",
                     "Service emphasis (as % of all benefits)" = "Service.emphasis",
                     "Social contribution (as % total receipts)" = "Contribution",
-                    "Social expenditures (as % of GDP)" = "Social.expenditures",
-                    "Health expenditures (as % of GDP)" = "Health.expenditures")
+                    "Social expenditures (as % of GDP)" = "Social.Expenditures",
+                    "Health expenditures (as % of GDP)" = "Health.Expenditures")
             ),
       selectInput(
         inputId = "yaxis", 
@@ -20,9 +20,9 @@ ui <- fluidPage(
         choices = c("Service effort (as % of GDP)" = "Service.effort",
                     "Transfer effort (as % of GDP)" = "Transfer.effort",
                     "Service emphasis (as % of all benefits)" = "Service.emphasis",
-                    "Social contribution (as % total receipts)" = "Social.contribution",
-                    "Social expenditures (as % of GDP)" = "Social.expenditures",
-                    "Health expenditures (as % of GDP)" = "Health.expenditures")
+                    "Social contribution (as % total receipts)" = "Contribution",
+                    "Social expenditures (as % of GDP)" = "Social.Expenditures",
+                    "Health expenditures (as % of GDP)" = "Health.Expenditures")
       )
     ),
     mainPanel(
